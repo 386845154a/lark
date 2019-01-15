@@ -7,7 +7,7 @@ class SocketApi {
     // 初始化网络
     const wsProtocol = 'ws' // ws 或 wss
     const ip = '127.0.0.1'
-    const port = 9326
+    const port = 93261
     const heartbeatTimeout = 5000 // 心跳超时时间，单位：毫秒
     const reconnInterval = 1000 // 重连间隔时间，单位：毫秒
     const binaryType = 'blob' // 'blob' or 'arraybuffer';//arraybuffer是字节
